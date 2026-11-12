@@ -1,0 +1,6 @@
+{
+  "name": "Shishu Pathshala",
+  "description": "An offline-first preschool educational app for children aged 3-4 featuring Bengali, English, Math, General Knowledge, interactive games, exams, and rewards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

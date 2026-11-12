@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6B6B" />
+      <stop offset="50%" stop-color="#FFA07A" />
+      <stop offset="100%" stop-color="#FFD166" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#E24A4A" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+
+  <!-- Inner cute circle -->
+  <circle cx="256" cy="256" r="210" fill="#FFFBF0" opacity="0.95" filter="url(#shadow)" />
+
+  <!-- Cute Tiger / Cub Mascot Face -->
+  <!-- Ears -->
+  <circle cx="160" cy="160" r="54" fill="#FF9F43" />
+  <circle cx="160" cy="160" r="32" fill="#FFEAA7" />
+  <circle cx="352" cy="160" r="54" fill="#FF9F43" />
+  <circle cx="352" cy="160" r="32" fill="#FFEAA7" />
+
+  <!-- Head Base -->
+  <ellipse cx="256" cy="270" rx="140" ry="120" fill="#FF9F43" />
+
+  <!-- Cheek fluff -->
+  <ellipse cx="140" cy="285" rx="30" ry="24" fill="#FF9F43" />
+  <ellipse cx="372" cy="285" rx="30" ry="24" fill="#FF9F43" />
+
+  <!-- Forehead stripes -->
+  <path d="M 256 160 L 256 200" stroke="#78350F" stroke-width="12" stroke-linecap="round" />
+  <path d="M 230 170 L 235 200" stroke="#78350F" stroke-width="10" stroke-linecap="round" />
+  <path d="M 282 170 L 277 200" stroke="#78350F" stroke-width="10" stroke-linecap="round" />
+
+  <!-- Muzzle -->
+  <ellipse cx="256" cy="305" rx="72" ry="50" fill="#FFFDF0" />
+
+  <!-- Eyes (big, sparkling cartoon eyes) -->
+  <ellipse cx="205" cy="245" rx="20" ry="26" fill="#1E293B" />
+  <ellipse cx="307" cy="245" rx="20" ry="26" fill="#1E293B" />
+  <!-- Sparkles -->
+  <circle cx="212" cy="236" r="8" fill="#FFFFFF" />
+  <circle cx="198" cy="254" r="4" fill="#FFFFFF" />
+  <circle cx="314" cy="236" r="8" fill="#FFFFFF" />
+  <circle cx="300" cy="254" r="4" fill="#FFFFFF" />
+
+  <!-- Pink Cheeks -->
+  <ellipse cx="180" cy="285" rx="16" ry="10" fill="#FF7675" opacity="0.6" />
+  <ellipse cx="332" cy="285" rx="16" ry="10" fill="#FF7675" opacity="0.6" />
+
+  <!-- Cute Nose & Mouth -->
+  <path d="M 245 285 Q 256 276 267 285 Q 256 295 245 285 Z" fill="#EE5253" />
+  <path d="M 256 292 Q 244 315 235 306" stroke="#4B5563" stroke-width="4.5" fill="none" stroke-linecap="round" />
+  <path d="M 256 292 Q 268 315 277 306" stroke="#4B5563" stroke-width="4.5" fill="none" stroke-linecap="round" />
+
+  <!-- Little School Cap / Alphabet Badge -->
+  <polygon points="256,90 330,130 256,155 182,130" fill="#4834D4" />
+  <rect x="250" y="145" width="12" height="18" fill="#F0932B" rx="3" />
+  <!-- Graduation Tassel -->
+  <path d="M 330 130 C 345 150 345 175 342 195" stroke="#F9CA24" stroke-width="6" fill="none" stroke-linecap="round" />
+  <circle cx="342" cy="198" r="8" fill="#F0932B" />
+
+  <!-- Floating Bangla letter badge 'অ' & 'A' -->
+  <g transform="translate(70, 360)">
+    <circle cx="36" cy="36" r="36" fill="#10B981" />
+    <text x="36" y="48" font-family="'Hind Siliguri', sans-serif" font-size="34" font-weight="bold" fill="#FFFFFF" text-anchor="middle">অ</text>
+  </g>
+  <g transform="translate(370, 360)">
+    <circle cx="36" cy="36" r="36" fill="#3B82F6" />
+    <text x="36" y="48" font-family="'Fredoka', sans-serif" font-size="34" font-weight="bold" fill="#FFFFFF" text-anchor="middle">A</text>
+  </g>
+</svg>

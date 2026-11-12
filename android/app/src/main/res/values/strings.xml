@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Shishu Pathshala</string>
+    <string name="title_activity_main">Shishu Pathshala</string>
+    <string name="package_name">com.shishupathshala.app</string>
+    <string name="custom_url_scheme">com.shishupathshala.app</string>
+</resources>

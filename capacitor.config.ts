@@ -1,0 +1,26 @@
+import type { CapacitorConfig } from '@capacitor/cli';
+
+const config: CapacitorConfig = {
+  appId: 'com.shishupathshala.app',
+  appName: 'Shishu Pathshala',
+  webDir: 'dist',
+  server: {
+    androidScheme: 'https',
+  },
+  plugins: {
+    SplashScreen: {
+      launchShowDuration: 1500,
+      launchAutoHide: true,
+      backgroundColor: '#FF6B6B',
+      androidSplashResourceName: 'splash',
+      androidScaleType: 'CENTER_CROP',
+      showSpinner: false,
+    },
+    StatusBar: {
+      backgroundColor: '#FF6B6B',
+      style: 'DARK',
+    },
+  },
+};
+
+export default config;
